@@ -35,7 +35,7 @@ jobs:
       # Step 3: 定义目标仓库地址并克隆
       - name: Clone Target Repository
         run: |
-          url="https://github.com/your_target_owner/your_target_repo.git"
+          url="https://github.com/0xobelisk/DubheOS.git"
           git clone $url target-repo
 
       # Step 4: 构建针对 M1 的二进制文件
